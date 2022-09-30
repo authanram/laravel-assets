@@ -2,9 +2,9 @@
 
 namespace Authanram\LaravelAssets;
 
+use Authanram\LaravelAssets\Commands\LaravelAssetsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Authanram\LaravelAssets\Commands\LaravelAssetsCommand;
 
 class LaravelAssetsServiceProvider extends PackageServiceProvider
 {

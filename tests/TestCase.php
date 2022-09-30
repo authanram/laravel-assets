@@ -2,9 +2,9 @@
 
 namespace Authanram\LaravelAssets\Tests;
 
+use Authanram\LaravelAssets\LaravelAssetsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Authanram\LaravelAssets\LaravelAssetsServiceProvider;
 
 class TestCase extends Orchestra
 {
